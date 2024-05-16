@@ -2,6 +2,25 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key></key>
+	<string></string>
+    <key>NSCameraUsageDescription</key>
+    <string>Приложение хочет использовать камеру</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Вы можете выбрать фотографии</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>Необходимо разрешить доступ к вашей библиотеке фотографий</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.611514246918-8ed6p51qk9b6oo9d1iek4lmevjncvre1</string>
+			</array>
+		</dict>
+	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
